@@ -1,0 +1,37 @@
+{
+  "name": "statusdashboard",
+  "version": "0.6.0",
+  "keywords": [
+    "status",
+    "dashboard",
+    "service"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mths.be/mit"
+    }
+  ],
+  "main": "./server.js",
+  "bin": {
+    "statusdashboard": "./bin/statusdashboard"
+  },
+  "engines": {
+    "node": ">=0.6.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dns-lookup": "^0.1.0",
+    "express": "latest",
+    "graphite": "latest",
+    "hiredis": "latest",
+    "irc": "latest",
+    "node-xmpp-client": "latest",
+    "nodemailer": "latest",
+    "pkginfo": "latest",
+    "redis": "latest",
+    "request": "latest",
+    "socket.io": "latest",
+    "underscore": "latest"
+  }
+}
