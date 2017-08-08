@@ -10,9 +10,9 @@ exports.dashboard = function(settings, cb) {
     var rootPath = path.dirname(module.filename),
         api = require('./api'),
         express = require('express'),
-        app = express();
-    var server = require('http').Server(app);
-    var io = require('socket.io')(server);
+        app = express(),
+        server = require('http').Server(app),
+        io = require('socket.io')(server);
 
 
     log = settings.logger ? settings.logger : require('util').log;
