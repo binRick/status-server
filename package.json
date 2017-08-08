@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "body-parser": "^1.17.2",
+    "dn": "^0.1.5",
     "dns-lookup": "^0.1.0",
     "express": "latest",
     "graphite": "latest",
