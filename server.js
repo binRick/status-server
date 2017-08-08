@@ -30,7 +30,9 @@ exports.dashboard = function(settings, cb) {
     app.use(express['static'].call(null, staticPath));
     //app.use(express.favicon(path.join(staticPath, 'favicon.ico')));
     // app.use(express.logger());
-    app.use(bodyParser());
+    //    app.use(bodyParser());
+    app.use(bodyParser.json())
+
     // app.use(express.methodOverride());
     //  });
 
